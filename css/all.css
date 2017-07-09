@@ -1,0 +1,191 @@
+*,p{
+	margin: 0;
+	padding: 0;
+}
+#menu {
+				margin: 0;
+				padding: 0;
+				position: fixed;
+				left: 10px;
+				top: 10px;
+				list-style-type: none;
+				z-index: 70;
+			}
+			
+			#menu li {
+				float: left;
+				margin: 0 10px 0 0;
+				font-size: 14px;
+			}
+			
+			#menu a {
+				float: left;
+				padding: 10px 20px;
+				background-color: #fff;
+				color: #333;
+				text-decoration: none;
+				font-size: 15px;
+			}
+			
+			#menu .active a {
+				color: #fff;
+				background-color: #333;
+			}
+			
+			.section {
+				text-align: center;
+				font: 50px "Microsoft Yahei";
+				color: #fff;
+			}
+			
+			.section1 {
+				background: url(../img/12.gif);
+				background-size: cover;
+			}
+			
+			.section2 {
+				background: url(../img/31.jpg) 100%;
+				background-size: cover;
+			}
+			
+			.section3 {
+				background: url(../img/44.jpg) 100%;
+				background-size: cover;
+			}
+			
+			.section4 {
+				background: url(../img/33.jpg) 100%;
+				background-size: cover;
+			}
+			
+			.section5 {
+				background: url(../img/b4.jpg) 100%;
+				background-size: cover;
+			}
+			
+			.section2 ul {
+				width: 200px;
+				height: 300px;
+				position: relative;
+				left: 20%;
+				
+			}
+			.section1 h3{
+				text-shadow: 1px 1px 2px gray;
+				margin: 0 0 50px 500px;
+				color: white;
+			}
+			.section1 p{
+				
+				margin:  50px 0 0 500px;
+			}
+			.section1 p span{
+				color: white;
+			}
+			.mas li {
+				position: absolute;
+				padding-top: 30px;
+				line-height: 30px;
+				text-align: center;
+				font-size: 16px;
+				list-style: none;
+				border-radius:50% ;
+				color: darkseagreen;
+				font-weight: 700;
+				background-color: rgba(250,250,250,.3);
+				box-sizing: border-box;
+				text-shadow: 1px 2px 1px blanchedalmond;
+				width:158px;height:145px;
+			}
+			
+			.mas li span{
+				display: block;
+			}
+			
+			.mas li:nth-of-type(2) span:nth-of-type(2){
+				margin-top: 20px;
+			}
+			
+			.mas li:nth-of-type(1){
+				top: 30px;
+				left: 70px;
+				-webkit-animation: cloud 3s 2s infinite alternate;
+				animation: cloud 2s 1s infinite alternate;
+			}
+			.mas li:nth-of-type(2){
+				top: 30px;
+				left: 240px;
+				-webkit-animation: cloud 1s 2s infinite alternate;
+				animation: cloud 5s 1s infinite alternate;
+			}
+			.mas li:nth-of-type(3){
+				
+				top: 30px;
+				left: 410px;
+				-webkit-animation: cloud 2s 2s infinite alternate;
+				animation: cloud 4s 1s infinite alternate;
+			}
+			p {
+				color: white;
+				opacity: .8;
+				font-weight: 700;
+				font-size: 25px;
+				text-shadow: 2px 2px 2px black;
+			}
+			
+			p span{
+				color: lightgreen;
+				font-weight: 600;
+				font-size: 30px;
+			}
+			
+			h3 {
+				color: #f26e5e;
+			}
+			a{
+				text-decoration: none;
+				color: palevioletred;
+				font-size: 16px;
+				padding-top: 150px;
+			}
+			
+			
+@-webkit-keyframes cloud{
+	0%{
+		-webkit-transform: translateX(0px);
+	}
+	100%{
+		-webkit-transform: translateX(50px);
+	}
+}
+
+@keyframes cloud{
+	0%{
+		transform: translateX(0px);
+	}
+	100%{
+		transform: translateX(50px);
+	}
+}
+.tree2{
+	margin:auto;
+	position: relative;
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+	opacity: 1;
+	-webkit-animation:tree 1s 1 linear;animation:tree 1s 1 linear;-webkit-animation-fill-mode: forwards;animation-fill-mode: forwards;}
+
+.cloud{
+	display: block;
+	position: absolute;
+	background: url(../img/12.png)no-repeat;
+	background-size: contain;
+	z-index: 5;
+	}
+
+.cloud:nth-of-type(1){left:365px;top:10px;width:158px;height:145px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 6s 1s infinite alternate;}
+.cloud:nth-of-type(2){left:510px;top:37px;width:161px;height:171px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 5s 3s infinite alternate;}
+.cloud:nth-of-type(3){left:200px;top:45px;width:133px;height:132px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 4s 1.5s infinite alternate;}
+.cloud:nth-of-type(4){left:50px;top:90px;width:158px;height:145px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 3s 2s infinite alternate;}
+.cloud:nth-of-type(5){left:816px;top:77px;width:191px;height:171px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 5s 3s infinite alternate;}
+.cloud:nth-of-type(6){left:698px;top:165px;width:113px;height:112px;-webkit-animation: cloud 3s 2s infinite alternate;animation: cloud 2s 1.5s infinite alternate;}
