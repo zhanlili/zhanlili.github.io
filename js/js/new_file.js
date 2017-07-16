@@ -21,6 +21,6 @@
 						}
 					}
 				});
-				$("div[data-anchor]").height(974)
+//				$("div[data-anchor]").height(974)
 			});
 	
