@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div id="head">
+				<div id="logo">
+					<a href="http://www.mafengwo.cn/"></a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="http://www.mafengwo.cn/">首页</a></li>
+						<li><a href="http://www.mafengwo.cn/mdd/">目的地</a></li>
+						<li><a href="http://www.mafengwo.cn/gonglve/">旅游攻略</a></li>
+						<li class="nav4"><a href="http://www.mafengwo.cn/sales/">自由行商场</a>
+							<span></span>
+							<div class="subnav4">
+								<a href="https://www.mafengwo.cn/sales/">机票&ensp;+&ensp;酒店<i class="i_hot"></i></a>
+								<a href="https://www.mafengwo.cn/sales/0-0-0-630-0-0-0-0.html">跟团游</a>
+								<a href="https://www.mafengwo.cn/localdeals/">当地游</a>
+								<a href="https://www.mafengwo.cn/flight/">国内机票</a>
+								<a href="https://www.mafengwo.cn/sales/visa/">签证</a>
+								<a href="http://zuche.mafengwo.cn/?utm_source=i22590029-pc&utm_medium=partner&utm_campaign=entry&utm_term=mfw_nav">国际租车</a>
+								<a href="https://www.mafengwo.cn/insure/">保险</a>
+							</div>
+						</li>
+						<li><a href="http://www.mafengwo.cn/hotel/">酒店</a></li>
+						<li class="nav6"><a href="">社区</a>
+							<span></span>
+							<div class="subnav6">
+								<div class="subnav6_left">
+									<ul>
+										<li><a href="http://www.mafengwo.cn/wenda/">问答<i class="i_hot"></i></a></li>
+										<li><a href="http://www.mafengwo.cn/mall/things.php">蚂蚁窝周边</a></li>
+										<li><a href="https://www.mafengwo.cn/localdeals/">蜂蜜兑换</a></li>
+										<li><a href="https://www.mafengwo.cn/flight/">结伴</a></li>
+									</ul>
+								</div>
+								<div class="subnav6_right">
+									<ul>
+										<li><a href="http://www.mafengwo.cn/group/">小组论坛<i class="i_hot"></i></a></li>
+										<li><a href="http://www.mafengwo.cn/rudder/">分舵同城</a></li>
+										<li><a href="http://www.mafengwo.cn/auction/">蚂蜂窝拍卖行</a></li>
+										<li><a href="http://www.mafengwo.cn/club/">蜂首聚乐部</a></li>
+										<li><a href="http://www.mafengwo.cn/photo_pk/pk.php">照片PK</a></li>
+										<li><a href="http://www.mafengwo.cn/focus/">真人兽</a></li>
+										<li><a href="http://www.mafengwo.cn/mall/virtual_goods.php">道具商店</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a href="http://www.mafengwo.cn/app/intro/gonglve.php">APP</a></li>
+					</ul>
+				</nav>
+				<div id="login">
+					<a href="https://passport.mafengwo.cn/weibo"></a>
+					<a href="https://passport.mafengwo.cn/qq"></a>
+					<a href="https://passport.mafengwo.cn/wechat"></a>
+					<a href="https://passport.mafengwo.cn">登录</a>
+					<span>|</span>
+					<a href="https://passport.mafengwo.cn/regist.html">注册</a>
+				</div>
+			</div>
+		</header>
+		<div id="banner">
+				<img src="img/banner1.jpeg" class="imgs show"/>
+				<img src="img/banner2.jpeg" class="imgs"/>
+				<img src="img/banner3.jpeg" class="imgs"/>
+				<img src="img/banner4.jpeg" class="imgs"/>
+				<img src="img/banner5.jpeg" class="imgs"/>
+			<div class="tip">
+				<span>6</span>
+				<span>/jun.2017</span>
+				<h3>章鱼烧—— 属于大阪，酒足饭饱后的消遣时光</h3>
+			</div>
+			<ul>
+				<li><a href="javascript:"><img src="img/banner-scan1.jpeg"/></a></li>
+				<li><a href="javascript:"><img src="img/banner-scan2.jpeg"/></a></li>
+				<li><a href="javascript:"><img src="img/banner-scan3.jpeg"/></a></li>
+				<li><a href="javascript:"><img src="img/banner-scan4.jpeg"/></a></li>
+				<li><a href="javascript:"><img src="img/banner-scan5.jpeg"/></a></li>
+			</ul>
+			<a href="http://www.mafengwo.cn/app/calendar.php"></a>
+			<div class="search">
+				<ul>
+					<li><i></i>全部</li>
+					<li><i></i>酒店</li>
+					<li><i></i>目的地</li>
+					<li><i></i>自由行商场</li>
+				</ul>
+				<input type="text" name="" id="ipt" placeholder="搜目的地/攻略/酒店/旅行特价"/>
+				<a href="javascript:" id="submited"><span></span></a>
+				<dl id="list">
+					<!--<li>云南</li>
+					<li>广州</li>5
+					<li>ffff</li>
+					<li>ffff</li>-->
+				</dl>
+			</div>
+			<p>
+				图片来自于<font><a href="javascript:">西班牙</a></font>
+				，此目的地共收藏了<font><a href="javascript:">218633</a></font>
+				张<a href="javascript:">西班牙</a>
+				图片。本片由<font><a href="javascript:">西兰花花花</a></font>
+				荣誉出品！
+			</p>
+		</div>
+		<div id="content" class="clearfix">
+			<div id="left">
+				<div class="advertise">
+					<img src="img/advertase.jpeg"/>
+					<i></i>
+				</div>
+				<div class="aside1 clearfix">
+					<div class="up">
+						<a href="javascrip:">旅行家专栏</a>
+						<a href="javascrip:">专栏首页</a>
+					</div>
+					<div class="middle">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="wrap">
+							<div class="img">
+								<img src="img/aside1.1.jpeg"/>
+								<img src="img/aside1.2.jpeg"/>
+								<img src="img/aside1.3.jpeg"/>
+								<img src="img/aside1.4.jpeg"/>
+								<img src="img/aside1.5.jpeg"/>
+							</div>
+							<div class="text">
+								<div class="text-wrap1">
+									<a href="javascrip:">一封喀土穆的来信（下）</a>
+									<p>“一阵暖风吹来，带着新生、发展、繁荣的消息，几乎传达到每一个细胞。”</p>
+								</div>
+								<div class="text-wrap2">
+									<a href="javascrip:">一封喀土穆的来信（上）</a>
+									<p>喀土穆随处可见的灰尘，形成了一种新的颜色歧视，而这一片幽静的水和绿让你忘记了身处非洲最大的沙漠边缘。</p>
+								</div>
+								<div class="text-wrap3">
+									<a href="javascrip:">没有地方能停止我们庸俗的生活</a>
+									<p>没有地方能停止我们庸俗的生活，就算你找到了一个理想的小镇。</p>
+								</div>
+								<div class="text-wrap4">
+									<a href="javascrip:">指间沙、万年船，印第安人的未来</a>
+									<p>许多印第安人藏身这座峡谷，在漫长的冬天不能生火做饭取暖，怕白人看见烟雾，这是美国历史上的黑暗一页。</p>
+								</div>
+								<div class="text-wrap5">
+									<a href="javascrip:">布尔津小镇：额尔齐斯河畔的俄式</a>
+									<p>不要只注意到它的冷水鱼的鲜美与烧烤的酥脆，如果你没注意到这个小镇的历史和文化沉淀，那将是不小的缺憾。</p>
+								</div>
+							</div>
+					    </div>
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="aside2 clearfix">
+					<div class="up">
+						<a href="javascrip:">旅游攻略推荐</a>
+						<a href="javascrip:">更多</a>
+					</div>
+					<div class="middle">
+						<div class="img">
+							<img src="img/aside2.jpeg"/>
+						</div>
+						<div class="text">
+							<h3>日本</h3>
+							<p>详细的吃、住、行、景点、线路、实用信息</p>
+						</div>
+					</div>
+					<div class="down">
+						<ul>
+							<li><a href="javascrip:">喝咖啡也 </a>点评了&nbsp;亚龙湾的<a href="javascrip:"> 林姐香味海鲜</a></li>
+							<li><a href="javascrip:">zquanjin </a>点评了&nbsp;环翠区的<a href="javascrip:"> 国际商务大厦</a></li>
+							<li><a href="javascrip:">papa是小 </a>点评了&nbsp;辛特拉的<a href="javascrip:"> 辛特拉王宫</a></li>
+							<li><a href="javascrip:">焦小荞 </a>点评了&nbsp;油尖旺的<a href="javascrip:"> 星光大道(Ave</a></li>
+							<li><a href="javascrip:">我爱沈阳 </a>点评了&nbsp;亚龙湾的<a href="javascrip:"> 林姐香味海鲜</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				
+				<div class="aside3 clearfix">
+					<div class="up">
+						<a href="javascrip:">我的活动</a>
+						<a href="javascrip:">正在进行</a>
+					</div>
+					<div class="middle">
+						<ul>
+							<li>
+								<img src="img/aside3.1.png"/>
+								<div class="text">
+									<h3>集结夜逍客，玩转这一夏</h3>
+									<p>跟着＃夜逍客＃一起玩转这一夏</p>
+								</div>
+							</li>
+							<li>
+								<img src="img/aside3.2.png"/>
+								<div class="text">
+									<h3>寻找最敢玩的“疯游精”</h3>
+									<p>免费驾驶吉利远景X1自驾疯玩</p>
+								</div>	
+							</li>
+							<li>
+								<img src="img/aside3.3.png"/>
+								<div class="text">
+									<h3>体验地道文化，感受当地生活</h3>
+									<p>一起放慢节奏，细看全球绝美景致</p>
+								</div>	
+							</li>
+							<li>
+								<img src="img/aside3.4.png"/>
+								<div class="text">
+									<h3>C-TREK蔚领·中国漫游季</h3>
+									<p>带你领略未曾领略的风景！</p>
+								</div>	
+							</li>
+							<li>
+								<img src="img/aside3.5.png"/>
+								<div class="text">
+									<h3>★穿越星期八 城市轻旅行</h3>
+									<p>一场远行，一种全新的探索方式</p>
+								</div>	
+							</li>
+							<li>
+								<img src="img/aside3.6.png"/>
+								<div class="text">
+									<h3>“周”游世界  遇见美好</h3>
+									<p>52个周末，与美好不期而遇！</p>
+								</div>	
+							</li>
+							<li>
+								<img src="img/aside3.7.png"/>
+								<div class="text">
+									<h3>蚂蜂窝拍卖行</h3>
+									<p>每周二：拍精美实物奖品！</p>
+								</div>	
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+				
+				<div class="aside4 clearfix">
+					<div class="up">
+						<a href="javascrip:">加入蚂蜂窝</a>
+						<a href="javascrip:">更多职位></a>
+					</div>
+					<div class="middle">
+						<img src="img/aside4.jpg"/>
+					</div>
+					<div class="down">
+						<ul>
+							<li><a href="javascrip:">广告销售经理<i>HOT</i>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;申请职位></a></li>
+							<li><a href="javascrip:">资深PHP开发工程师<i>HOT</i>申请职位></a></li>
+							<li><a href="javascrip:">投诉专员&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;申请职位></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="aside5 clearfix">
+					<p>蚂蜂窝旅行网站最新进展</p>
+					<ul>
+						<li>10月29日<a href="javascript:">蚂蜂窝秋酷大趴完美收官&全纪录</a></li>
+						<li>09月29日<a href="javascript:">蚂蜂窝秋酷大趴进入倒计时</a></li>
+						<li>09月20日<a href="javascript:">手机写游记功能上线</a></li>
+						<li>08月24日<a href="javascript:">蚂蜂窝C9计划·秋酷大趴开始报名</a></li>
+						<li>08月15日<a href="javascript:">2016蚂蜂窝指路人全球招募</a></li>
+						<li>08月06日<a href="javascript:">奥运金牌争夺战活动开始</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			
+			<div id="right">
+				<div class="advertise">
+					<img src="img/advertise1.jpeg"/>
+					<i></i>
+				</div>
+				
+				<div class="section1">
+					<div class="head">爆款热卖</div>
+					<ul class="clearfix">
+						<li>
+							<img src="img/section1.1.jpeg"/>
+							<div class="discript">
+								<h3>京都 桜京/樱京和服体验租赁预定 网红店铺/火爆人气/近清水寺/夏季浴衣/不补差价挑到满意</h3>
+							</div>
+							<div class="price"><div class="subprice"> ￥<strong>99</strong><em>起/人</em></div></div>
+						</li>
+						<li>
+							<img src="img/section1.2.png"/>
+							<div class="discript">
+								<h3>上海直飞台湾5-8天往返含税机票（含1晚酒店+台北一地/台进高出/高进台出</h3>
+							</div>
+							<div class="price"><div class="subprice"> ￥<strong>1390</strong><em>起/人</em></div></div>
+						</li>
+						<li>
+							<img src="img/section1.3.jpeg"/>
+							<div class="discript">
+								<h3>【蚂蜂窝推荐 全国受理办2免1】美国旅游签证 （限量999元100本售完为止+5大领区陪签服务+在线资料预审+可升级拒签赔付+包回邮+EVUS登记</h3>
+						    </div>
+							<div class="price"><div class="subprice"> ￥<strong>999</strong><em>起/人</em></div></div>
+						</li>
+					</ul>
+					
+				</div>
+				
+				<div class="section2">
+					<div class="head clearfix">
+						<ul>
+							<li>
+								<a href="javascript:">热门游记</a>
+								<span id=""><i></i>筛选</span>
+							</li>
+							<li><a>最新发表</a></li>
+							<li><a href=""><i></i><span>我要上首页</span></a></li>
+							<li><a href=""><i></i><span>写游记</span></a></li>
+						</ul>
+					</div>
+					<div class="content">
+						<ul>
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg1.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg2.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg3.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg4.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg5.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg6.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg7.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg8.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="subimg">
+									<a href=""><img src="img/subimg9.jpeg"/></a>
+								</div>
+								<div class="write">
+									<dl>
+										<a href="/i/6975422.html">唔港味，冇潮人——三天两晚走走拍</a>
+										<a href="">
+											 看过很多早期港式文艺电影和港剧， 对 香港 的街道和夜色有特别的执念， 当你走在街头和地铁站， 感觉随时都能进入港式色彩的情绪。 前几天看到有蜂首拍的 香港 风景，哇，这也太赞了吧~可...
+										</a>
+									</dl>
+									<div class="textfoot">
+										<span><i></i><a href="">宁夏</a>，by</span>
+										<span><a href=""><img src="img/textfooticon1.jpeg"/>Rex-Bang。</a></span>
+										<span><i></i>63656/648</span>
+										<span><em>3104</em><a href=""></a></span>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+					
+				</div>
+				
+				
+				
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		<footer>
+			<div id="main">
+				<section id="top" class="clearfix">
+					<div class="f_left">
+						<h3>中国领先的自由行服务平台</h3>
+						<ul>
+							<li><span>覆盖全球200多个国家和地区</span></li>
+							<li><b>100,000,000 </b><span>位旅行者</span></li>
+							<li><b>920,000 </b><span>家国际酒店</span></li>
+							<li><b>21,000,000 </b><span>条真实点评</span></li>
+							<li><b>382,000,000 </b><span>次攻略下载</span></li>
+							<li><b>中国旅游行业第一部"玩法"</b></li>
+						</ul>
+					</div>
+					<div class="f_second">
+						<h3>关于我们</h3>
+						<ul>
+							<li><a href="http://www.mafengwo.cn/s/about.html"><span>关于蚂蜂窝</span></a></li>
+							<li><a href="http://www.mafengwo.cn/s/property.html"><span>网络信息侵权通知指引</span></a></li>
+							<li><a href="http://www.mafengwo.cn/s/private.html"><span>隐私政策</span></a></li>
+							<li><a href="http://www.mafengwo.cn/s/agreement.html"><span>服务协议</span></a></li>
+							<li><a href="http://www.mafengwo.cn/s/contact.html"><span>联系我们</span></a></li>
+							<li><a href="http://www.mafengwo.cn/s/hr.html"><b>加入蚂蜂窝</b></a></li>
+						</ul>
+					</div>
+					<div class="f_third">
+						<h3>旅行服务</h3>
+						<ul class="left">
+							<li><a href="http://www.mafengwo.cn/gonglve/"><span>旅游攻略</span></a></li>
+							<li><a href="http://www.mafengwo.cn/sales/"><span>旅游特价</span></a></li>
+							<li><a href="http://www.mafengwo.cn/wenda/"><span>旅游问题</span></a></li>
+							<li><a href="http://z.mafengwo.cn"><span>旅游指南</span></a></li>
+							<li><a href="http://www.mafengwo.cn/travel-news/"><span>旅游资讯</span></a></li>
+						</ul>
+						<ul class="right">
+							<li><a href="hhttp://www.mafengwo.cn/hotel/"><span>酒店预订</span></a></li>
+							<li><a href="http://zuche.mafengwo.cn/"><span>国际租车</span></a></li>
+							<li><a href="http://www.mafengwo.cn/insure/"><span>旅游保险</span></a></li>
+							<li><a href="http://huoche.mafengwo.cn"><span>订火车票</span></a></li>
+							<li><a href="http://www.mafengwo.cn/app/intro/gonglve.php"><span>APP下载</span></a></li>
+						</ul>
+						<a href="http://www.mafengwo.cn/sales/alliance.php"><b>全球供应商入驻</b></a>
+					</div>
+					<div class="f_right">
+						<div class="left">
+							<img src="img/QR-Code1.gif"/>
+							<p>蚂蜂窝自由行订阅号</p>
+						</div>
+						<div class="right">
+							<img src="img/QR-Code2.png"/>
+							<p>蚂蜂窝自由行订阅号</p>
+						</div>
+					</div>
+				</section>
+				<section id="middle">
+					<div class="follow">
+						<p>关于我们</p>
+						<div class="icon">
+							<i></i>
+							<i></i>
+							<i></i>
+						</div>
+					</div>
+				</section>
+				<section id="down" class="clearfix">
+					<ul>
+						<li><a href="http://china.makepolo.com/">马可波罗</a></li>
+						<li><a href="http://www.onlylady.com/">Onlylady女人志</a></li>
+						<li><a href="http://trip.elong.com/">艺龙旅游指南</a></li>
+						<li><a href="http://www.cncn.com">欣欣旅游网</a></li>
+						<li><a href="http://www.8264.com/">户外运动</a></li>
+						<li><a href="http://www.yue365.com/">365音乐网</a></li>
+						<li><a href="http://ishare.iask.sina.com.cn/">爱问共享资料</a></li>
+						<li><a href="http://www.uzai.com/">旅游网</a></li>
+						<li><a href="http://www.zongheng.com/">小说网</a></li>
+						<li><a href="http://www.xuexila.com/">学习啦</a></li>
+						<li><a href="http://www.yododo.com">游多多自助游</a></li>
+						<li><a href="http://www.gebilaoshi.com">教育</a></li>
+						<li><a href="http://huoche.mafengwo.cn/">火车时刻表</a></li>
+						<li><a href="http://www.lvmama.com">驴妈妈旅游网</a></li>
+						<li><a href="http://www.haodou.com/">好豆美食网</a></li>
+						<li><a href="http://www.taoche.com/">二手车</a></li>
+						<li><a href="http://www.lvye.cn">绿野户外</a></li>
+						<li><a href="http://www.tuniu.com/">途牛旅游网</a></li>
+						<li><a href="http://www.mapbar.com/">图吧</a></li>
+						<li><a href="http://www.chnsuv.com">SUV联合越野</a></li>
+						<li><a href="http://www.uc.cn/">手机浏览器</a></li>
+						<li><a href="http://sh.city8.com/">上海地图</a></li>
+						<li><a href="http://www.tianqi.com/">天气预报查询</a></li>
+						<li><a href="http://www.ly.com/">同程旅游</a></li>
+						<li><a href="http://www.tieyou.com/">火车票</a></li>
+						<li><a href="http://you.ctrip.com/">携程旅游</a></li>
+						<li><a href="http://www.jinjiang.com">锦江旅游</a></li>
+						<li><a href="http://www.huoche.net/">火车时刻表</a></li>
+						<li><a href="http://www.tripadvisor.cn/">TripAdvisor</a></li>
+						<li><a href="http://www.tianxun.com/">天巡网</a></li>
+						<li><a href="http://www.zizaike.com">自在客</a></li>
+						<li><a href="http://www.zuzuche.com">租租车</a></li>
+						<li><a href="http://www.5fen.com/">五分旅游网</a></li>
+						<li><a href="http://www.zhuna.cn/">酒店预订</a></li>
+						<li><a href="http://www.ailvxing.com">爱旅行网</a></li>
+						<li><a href="http://360.mafengwo.cn/all.php">旅游</a></li>
+						<li><a href="http://vacations.ctrip.com/">旅游网</a></li>
+						<li><a href="http://www.wed114.cn">wed114结婚网</a></li>
+						<li><a href="http://www.chexun.com/">车讯网</a></li>
+						<li><a href="http://www.aoyou.com/">遨游旅游网</a></li>
+						<li><a href="http://www.91.com/">手机</a></li>
+						<li><a href="http://www.mafengwo.cn/s/link.html">更多友情链接>></a></li>
+					</ul>
+				</section>
+				<section id="bottom" class="clearfix">
+					<div class="logo">
+						
+					</div>
+					<div class="text">
+						<div class="text1">
+							<span>© 2017 Mafengwo.cn</span>
+							<a href="http://www.miibeian.gov.cn/"> 京ICP备11015476号 </a>
+							<span>京公网安备110105013401号</span>
+							<a href="http://images.mafengwo.net/images/about/icp.jpg"> 京ICP证110318号</a>
+						</div>
+						<div class="text2">
+							<a href="http://images.mafengwo.net/images/about/licence.jpg"> 营业执照 </a>
+							<span>新出网证(京)字242号 全国统一客服电话：</span>
+							<b>4006-345-678</b>
+							<a href="http://www.mafengwo.cn/s/sitemap.html"> 网站地图</a>
+						</div>
+					</div>
+					<div class="link">
+						<ul>
+							<li><a href="https://search.szfw.org/cert/l/CX20140627008255008321"></a></li>
+							<li><a href="https://ss.knet.cn/verifyseal.dll?sn=e130816110100420286o93000000&ct=df&a=1&pa=787189"></a></li>
+							<li><a href="http://www.itrust.org.cn/Home/Index/itrust_certifi/wm/1669928206.html"></a></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</footer>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/search.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+
+
+
