@@ -94,11 +94,11 @@
 				font-size: 16px;
 				list-style: none;
 				border-radius:50% ;
-				color: darkseagreen;
+				color: white;
 				font-weight: 700;
-				background-color: rgba(250,250,250,.3);
+				background-color: rgba(252,252,250,.3);
 				box-sizing: border-box;
-				text-shadow: 1px 2px 1px blanchedalmond;
+				text-shadow: 1px 2px 1px gray;
 				width:158px;height:145px;
 			}
 			
@@ -112,7 +112,7 @@
 			
 			.mas li:nth-of-type(1){
 				top: 30px;
-				left: 70px;
+				left: 750px;
 				-webkit-animation: cloud 3s 2s infinite alternate;
 				animation: cloud 2s 1s infinite alternate;
 			}
@@ -125,7 +125,7 @@
 			.mas li:nth-of-type(3){
 				
 				top: 30px;
-				left: 410px;
+				left: 470px;
 				-webkit-animation: cloud 2s 2s infinite alternate;
 				animation: cloud 4s 1s infinite alternate;
 			}
@@ -133,12 +133,12 @@
 				color: white;
 				opacity: .8;
 				font-weight: 700;
-				font-size: 25px;
+				font-size: 20px;
 				text-shadow: 2px 2px 2px black;
 			}
 			
 			p span{
-				color: lightgreen;
+				color: white;
 				font-weight: 600;
 				font-size: 30px;
 			}
@@ -193,4 +193,5 @@
 .cloud:nth-of-type(3){left:200px;top:45px;width:133px;height:132px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 4s 1.5s infinite alternate;}
 .cloud:nth-of-type(4){left:50px;top:90px;width:158px;height:145px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 3s 2s infinite alternate;}
 .cloud:nth-of-type(5){left:816px;top:77px;width:191px;height:171px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 5s 3s infinite alternate;}
-.cloud:nth-of-type(6){left:698px;top:165px;width:113px;height:112px;-webkit-animation: cloud 3s 2s infinite alternate;animation: cloud 2s 1.5s infinite alternate;}
+.cloud:nth-of-type(6){left:698px;top:165px;width:113px;height:112px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 2s 1.5s infinite alternate;}
+.cloud:nth-of-type(7){left:998px;top:135px;width:103px;height:102px;-webkit-animation: cloud 5s 2s infinite alternate;animation: cloud 2s 1.5s infinite alternate;}
