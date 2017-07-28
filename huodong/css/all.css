@@ -1,0 +1,235 @@
+*,p{margin: 0;padding: 0;font-family:"微软雅黑" "宋体";}
+li{list-style: none;}
+.wrap{width: 100%;height: 1000px;}
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+.title{
+	width: 100%;
+	height: 84px;
+	padding: 20px 10px;
+}
+.title .title_t{
+	height: 30px;
+	font-size: 15px;
+	font-weight: 700;
+}
+.title_1 p{
+	float: left;
+	font-size: 11px;
+	color: #ababab;
+}
+.title p span{
+	text-align: center;
+	margin-right: 6px;
+}
+.title_1 p:nth-of-type(2){
+	float: right;
+}
+.gold{
+	color: #e7c48e;
+}
+.con_list{
+	width: 100%;
+	height: 200px;
+}
+.con_list li{
+	padding: 0 10px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	box-sizing: border-box;
+	margin-top: -1px;
+	border-width: 70%;
+	color: #596a64;
+	font-size: 11px;
+	font-weight: 700;
+}
+.bj{
+	display: block;
+	float: left;
+	margin: 10px 5px 0 0;
+}
+.bj_1{
+	width: 23px;
+	height: 23px;
+	background: url(../img/BJ_2.png) no-repeat;
+	background-position: -96px -2px;
+}
+.bj_2{
+	width: 22px;
+	height: 27px;
+	background: url(../img/BJ_2.png) no-repeat;
+	background-position: -59px 0px;
+}
+.bj_3{
+	width: 23px;
+	height: 27px;
+	background: url(../img/BJ_2.png) no-repeat;
+	background-position: -29px -1px;
+}
+.bj_4{
+	width: 24px;
+	height: 24px;
+	background: url(../img/BJ_2.png) no-repeat;
+	background-position: 0px -2px;
+}
+.con_right{
+	float: right;
+	line-height: 50px;
+}
+.con_right .right_1{
+	color: #9acbd2;
+	margin-right: 6px;
+}
+.active .left{
+	width: 20%;
+	height: 61px;
+	float: left;
+}
+.active .left .left_pic{
+	width: 62px;
+	height: 62px;
+	border-radius:50%;
+	margin-left: 10px;
+	border: 1px solid gainsboro;
+	background: url(../img/background.png) no-repeat;
+	background-position:-40px -33px;
+}
+.active .right{
+	width: 80%;
+	height: 61px;
+}
+.active .right p:nth-of-type(1){
+	width: 400px;
+	height: 22px;
+	font-size:12px ;
+	font-weight: 700;
+}
+.active .right p span{
+	float: left;
+	display: block;
+}
+.active .right .bg1{
+	width: 17px;
+	height: 15px;
+	background: url(../img/background.png) no-repeat;
+	background-position: 0 -45px;
+}
+.active .right .bg2{
+	width: 42px;
+	height: 20px;
+		background: url(../img/background.png) no-repeat;
+	background-position: 0 -60px;
+}
+.active .right p:nth-of-type(2){
+	width: 400px;
+	height: 40px;
+	font-size: 12px;
+}
+.active_b{
+	width: 100%;
+	height: 40px;
+	margin-top: 25px;
+}
+.active_b span{
+	width: 50%;
+	height: 16px;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	float: left;
+	color: #15c0d9;
+}
+.active_b span:nth-of-type(1){
+	border-right: 1px solid #CCC;
+}
+.foot{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+}
+.foot .foot_list li{
+	width: 30%;
+	height: 60px;
+	float: left;
+	padding: 5px;
+	border: 1px solid #ABABAB;
+	margin-left: -0.5px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 11px;
+	color: #ababab;
+}
+.foot .foot_list li span{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/background.png) no-repeat;
+}
+.foot .foot_list li:nth-of-type(1) span{
+	background-position: -29px -6px;
+	margin:0 auto;
+}
+.foot .foot_list li:nth-of-type(2) span{
+	background-position: -63px 0 ;
+	margin:0 auto;
+}
+.foot .foot_list li:nth-of-type(3) span{
+	width: 30px;
+	height: 30px;
+	background-position: 0 0;
+	line-height: 30px;
+	float: left;
+	margin-top: 10px;
+	
+}
+.foot .foot_list li:nth-of-type(3) p{
+	width: 60px;
+	height: 60px;
+	line-height: 50px;
+	float: left;
+}
+.foot .foot_list li:nth-of-type(3){
+	width: 40%;
+	height: 60px;
+	background-color: #029ae6;
+	color: #e3f6f8;
+	float: left;
+}
+.foot .foot_list li:nth-of-type(3) div{
+	width: 90px;
+	height: 60px;
+	margin: 0 auto;
+}
+.piao{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #707070;
+	border-radius: 50%;
+	position: fixed;
+	right: 10px;
+	bottom: 80px;
+}
+.piao span{
+	width: 20px;
+	height: 11px;
+	margin: 10px 0 5px 17px;
+	display: block;
+	background: url(../img/background.png) no-repeat;
+	background-position: -3px -32px;
+}
+.piao p{
+	font-size: 11px;
+	color: #707070;
+	margin-left: 10px;
+}
+
+
